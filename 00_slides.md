@@ -14,6 +14,8 @@ paginate: true
 
 - Go to the [example repository](https://github.com/CoLRev-Environment/colrev-template)
 - Start it in Codespaces
+- Slides are available at XXXX
+- Cheatsheet is available at XXXXX
 
 ![bg right:50% width:550px](../assets/start-codespaces.png)
 
