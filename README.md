@@ -11,3 +11,7 @@ important:
 ```
 make slides
 ```
+
+Creates slides in `output` directory.
+
+The cheatsheet is [here](cheatsheed.md).
