@@ -19,6 +19,16 @@ paginate: true
 
 ---
 
+# Who are we?
+
+- Gerit Wagner: short bio
+
+- Julian Prester: short bio
+
+Overview of publications on literature reviews, tools, teaching (phd, bachelor, master), editorial work, ...
+
+---
+
 # Literature reviews with CoLRev
 
 First slides: what do we mean with colrev/what's our focus?
