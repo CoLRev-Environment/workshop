@@ -8,6 +8,8 @@ paginate: true
 
 # Welcome to CoLRev
 
+TODO : add QR code linking to the slides
+
 ---
 
 # Before we start
@@ -23,11 +25,25 @@ paginate: true
 
 # Who are we?
 
+![bg center width:900px](../assets/expertise.png)
+
+<!-- 
+
 - Gerit Wagner: short bio
 
 - Julian Prester: short bio
 
 Overview of publications on literature reviews, tools, teaching (phd, bachelor, master), editorial work, ...
+
+Map our journey on the left (started in Regensburg, JP to UNSW, GW to Montreal and Bamberg, JP to University of Sydney)
+
+Illustrate our experience on the right as different "building blocks" with the colrev project on top (e.g., 12 review papers, 4 methods papers, 87 packages, 7 teaching offers, 4 x service as editor/reviewer )
+
+3 methods papers in the senior scholars basket (of 11)
+over 50 phd students
+
+colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contributors, but still a lot to do
+ -->
 
 ---
 

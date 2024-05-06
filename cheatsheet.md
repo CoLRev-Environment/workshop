@@ -44,3 +44,7 @@ colrev screen
 colrev data
 
 - Highlight the PRISMA chart, how to work with the synthesis list
+
+# Optionals
+
+pdf-backward search: copy from colrev search --help (options)
