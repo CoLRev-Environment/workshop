@@ -6,18 +6,20 @@ theme: ub-theme
 paginate: true
 ---
 
-# Welcome to CoLRev
-
-TODO : add QR code linking to the slides
+![bg center width:500px](../assets/logo_small.png)
 
 ---
 
 # Before we start
 
 - Go to the [example repository](https://github.com/CoLRev-Environment/colrev-template)
+- Login to GitHub
 - Start it in Codespaces
-- Slides are available at XXXX
-- Cheatsheet is available at XXXXX
+- Slides and cheatsheet are available at XXXX
+
+**TODO : add QR code linking to the slides (directly to this page of the slides)**
+**TODO: add the cheatsheet to vscode + rendered version on github/linked (with collapsible showing colrev status)**
+**TBD: setup.md in codespaces?**
 
 ![bg right:50% width:550px](../assets/start-codespaces.png)
 
@@ -26,6 +28,8 @@ TODO : add QR code linking to the slides
 # Who are we?
 
 ![bg center width:900px](../assets/expertise.png)
+
+TODO : add Guy Paré to HEC Montréal
 
 <!-- 
 
@@ -49,19 +53,34 @@ colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contri
 
 # Literature reviews with CoLRev
 
+- An open and extensible platform supporting all steps
+
+    - ``colrev init`` - problem formulation
+    - ``colrev retrieve`` - search, prep, dedupe
+    - screen (pdf retrieval, pdf preparation)
+    - screen
+    - data extraction and synthesis
+
+- Based on Git for versioning and collaboration
+- Packages for different types of reviews (not just "systematic reviews")
+
+<!-- 
+Git-based: the full collaboration model
+
 First slides: what do we mean with colrev/what's our focus?
 colrev: literature reviews in collaborative settings
 
-- All steps / something we discussed earlier, when announcing the workshop (record keeping, put users in a position to report a full standalone paper at all times)
-- Different types of reviews (not just SLR)
+something we discussed earlier, when announcing the workshop (record keeping, put users in a position to report a full standalone paper at all times)
+
 -> Extensible approach, adapting the first steps with parameters, and selecting different packages for the data analysis/extraction/coding/synthesis/RoB
-- Reusable: it should be easy to update prior reviews, import samples from review papers published by another author team, or student papers etc. (reuse: one step further than reproducibility)
+-->
 
 ---
 
 # Collaborative literature reviews
 
 Reliability
+
 - open data, open-source code (transparency - using Git to see exactly what was changed) - not the most common approach in the context of LR
 - validation of data and code (manual and algorithmic)
 - easy undo operations
@@ -70,8 +89,10 @@ Reliability
 enables / requires
 
 Efficiency
+
 - combining SOTA tools, testing new algorithms
 - involve colleagues, student assistants, crowds (variance in quality, availability, cost)
+- Reusable: it should be easy to update prior reviews, import samples from review papers published by another author team, or student papers etc. (reuse: one step further than reproducibility)
 
 ---
 
@@ -79,6 +100,7 @@ Efficiency
 
 - small groups
 - codespaces: read doc + enter commands
+- show the command-line (the colrev init + colrev status)
 - GW: prepare worksheet (printed + in codepaces)
 
 ---
@@ -87,42 +109,57 @@ Efficiency
 
 colrev init (with review types, and protocol for notes)
 
+link to docs?
+
+mention paper.md for protocol?
+
+<!-- Note: do not show "a solution" for this part -->
+
 ---
 
 # Search
+
+Focus: search
 
 - search: interactively add search (DB + API)
 - IEEE (web of science) - publicly accessible download results files
 - AIS via api (TEST)
 
-Topic: "microsourcing" (or a topic of your choice, preferrably one that does not return too many results)
+Topic: "microsourcing" 
+
+Note: You may use a topic of your choice, preferrably one that does not return too many results.
+
+If you completed the search, you can continue with `prep` and `dedupe`
+
+<!-- Includes prep and dedupe
+
+dedupe: highlight: single open-source (code  peer reviewed) tool -->
 
 ---
 
 # Screen
 
-
-Includes dedupe
-
-dedupe: highlight: single open-source (code  peer reviewed) tool
+prescreen
 
 PDF retrieval
 
 Screen (full-texts)
 
+<!-- mention PDF retrieval locally/based on index - 80% -->
+
 ---
 
 # Data extraction, analysis, synthesis
 
-default workflow, with pdf and prisma at the end
+- Synthesis with paper.md
+- Export as PDF, word (with PRISMA)
 
 ---
 
 # Optional items (depending on time left)
 
-- Show search updates?
+- Show search updates (provdie an updated IEEE results file with additional records)?
 - backward-search - one or several papers? TEST
-- curation (online?)? - curated metadata, pdfs: 80% of papers?
 - exports to different bib formats / just the sample (TEST!)
 
 <!-- generate profiles?! / structured data -->
@@ -133,3 +170,4 @@ default workflow, with pdf and prisma at the end
 
 - How to get in touch, ask for help (literature-review consultation hour/calendly?)
 - How to get involved (report bugs, contribute, ...)
+- similar to last slide of esmarconf

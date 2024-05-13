@@ -13,6 +13,7 @@ Simply type `colrev init` and press `Enter`
 **Notes:**
 
 - Check out the folder scaffold being created on the left
+- You can specify a particular [review type](https://colrev.readthedocs.io/en/latest/manual/problem_formulation/init.html) by running `colrev init --type REVIEW_TYPE`
 - When starting the project, it is good practice to use the `data/data/paper.md` as a protocol
 
 <!-- There doesn't seem to be a `data/data/paper.md` after colrev init? -->
@@ -32,7 +33,7 @@ This operation adds a SearchSource to the project settings and record metadata a
 
 **Notes:**
 
-- Bonus points if you use [litbaskets.io](https://litbaskets.io/) to search and use the Scopus export instead of ACM Digital Library
+- You can also use [litbaskets.io](https://litbaskets.io/) to search and use the Scopus export
 
 ## `colrev load`, `colrev prep`, `colrev dedupe`
 
