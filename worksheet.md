@@ -90,8 +90,10 @@ colrev pdfs
 colrev screen
 ```
 
-- TBD: with/without criteria?
-- TBD: there may be some loading time for abstract extraction (grobid)
+**Notes:**
+
+- You will be asked whether you would like to add screening criteria
+- You can extract abstracts from the PDFs before the screen by running ``colrev screen --add_abstracts_from_tei``
 
 # Data
 
@@ -101,6 +103,9 @@ colrev data
 
 - Highlight the PRISMA chart, how to work with the synthesis list
 
+<!-- 
+
 # Optionals
 
 pdf-backward search: copy from colrev search --help (options)
+ -->

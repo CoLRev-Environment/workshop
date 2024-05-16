@@ -45,22 +45,45 @@
 <header>CoLRev workshop at ECIS 2024</header>
 <h1>Literature reviews with CoLRev</h1>
 <ul>
-<li>
-<p>An open and extensible platform supporting all steps</p>
-<ul>
-<li><code>colrev init</code> - problem formulation</li>
-<li><code>colrev retrieve</code> - search, prep, dedupe</li>
-<li>screen (pdf retrieval, pdf preparation)</li>
-<li>screen</li>
-<li>data extraction and synthesis</li>
+<li>An open and extensible platform supporting all steps</li>
 </ul>
-</li>
-<li>
-<p>Based on Git for versioning and collaboration</p>
-</li>
-<li>
-<p>Packages for different types of reviews (not just &quot;systematic reviews&quot;)</p>
-</li>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Operations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Problem formulation</td>
+<td><code>colrev init</code></td>
+</tr>
+<tr>
+<td>Metadata retrieval</td>
+<td><code>colrev search</code>, <code>colrev load</code>, <code>colrev prep</code>, <code>colrev dedupe</code></td>
+</tr>
+<tr>
+<td>Metadata prescreen</td>
+<td><code>colrev prescreen</code></td>
+</tr>
+<tr>
+<td>PDF retrieval</td>
+<td>``colrev pdfs<code>  </code></td>
+</tr>
+<tr>
+<td>PDF screen</td>
+<td><code>colrev screen</code></td>
+</tr>
+<tr>
+<td>Data extraction and synthesis</td>
+<td><code>colrev data</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Based on Git for versioning and collaboration</li>
+<li>Packages for different types of reviews (not just &quot;systematic reviews&quot;)</li>
 </ul>
 <footer>Gerit Wagner and Julian Prester</footer>
 </section>

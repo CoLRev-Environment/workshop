@@ -54,13 +54,17 @@ colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contri
 
 - An open and extensible platform supporting all steps
 
-    - ``colrev init`` - problem formulation
-    - ``colrev retrieve`` - search, prep, dedupe
-    - screen (pdf retrieval, pdf preparation)
-    - screen
-    - data extraction and synthesis
+| Step                      | Operations                |
+|----------------------------|--------------------------|
+| Problem formulation        | ``colrev init``          |
+| Metadata retrieval         | ``colrev search``, ``colrev load``, ``colrev prep``, ``colrev dedupe``        |
+| Metadata prescreen         | ``colrev prescreen``     |
+| PDF retrieval              | ``colrev pdfs`    `      |
+| PDF screen                 | ``colrev screen``        |
+| Data extraction and synthesis | ``colrev data``       |
 
-- Based on Git for versioning and collaboration
+
+- Based on Git for data versioning and collaboration
 - Packages for different types of reviews (not just "systematic reviews")
 
 <!-- 
