@@ -14,7 +14,6 @@ important:
 - Release (after 0.12.2) to make fixes in AIS available via pypi
 - use full commands (colrev search --add instead of -a)
 
-
 ```
 make slides
 ```
@@ -22,3 +21,5 @@ make slides
 Creates slides in `output` directory.
 
 The cheatsheet is [here](cheatsheed.md).
+
+Part of the [ECIS workshop on literature reviews](https://github.com/blairw/ecis2024-litreviewtools-workshop)
