@@ -12,16 +12,15 @@ paginate: true
 
 # Before we start
 
-- Go to the [example repository](https://github.com/CoLRev-Environment/colrev-template)
-- Login to GitHub
-- Start it in Codespaces
+- Start the [demo](https://github.com//codespaces/new?hide_repo_select=true&ref=main&repo=767717822) (account and login on GitHub required)
 - Slides and cheatsheet are available at XXXX
 
-**TODO : add QR code linking to the slides (directly to this page of the slides)**
-**TODO: add the cheatsheet to vscode + rendered version on github/linked (with collapsible showing colrev status)**
-**TBD: setup.md in codespaces?**
+**TODO**
 
-![bg right:50% width:550px](../assets/start-codespaces.png)
+- add QR code linking to the slides (directly to this page of the slides)
+- add the cheatsheet to vscode + rendered version on github/linked (with collapsible showing colrev status)- add cheatsheet to setup.md in codespaces?
+
+![bg right:50% width:350px](../assets/start-demo.png)
 
 ---
 
@@ -29,9 +28,9 @@ paginate: true
 
 ![bg center width:900px](../assets/expertise.png)
 
-TODO : add Guy Paré to HEC Montréal
 
 <!-- 
+TODO : add Guy Paré to HEC Montréal
 
 - Gerit Wagner: short bio
 
@@ -83,8 +82,7 @@ Reliability
 
 - open data, open-source code (transparency - using Git to see exactly what was changed) - not the most common approach in the context of LR
 - validation of data and code (manual and algorithmic)
-- easy undo operations
--> paradigm change: no longer require "blind trust" in algorithms/student assistants
+- easy undo operations: paradigm change: no longer require "blind trust" in algorithms/student assistants
 
 enables / requires
 
