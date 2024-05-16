@@ -22,10 +22,6 @@ Simply type `colrev init` and press `Enter`
 
 # 2. Search
 
-```
-colrev search
-```
-
 This operation adds a SearchSource to the project settings and record metadata are retrieved. SearchSources keep track of the associated queries, as well as the search results files. CoLRev includes serveral types of SearchSources such as, for example, traditional database searches, API-based searches, or backward and forward searches. For more information check the [documentation](https://colrev.readthedocs.io/en/latest/manual/metadata_retrieval/search.html).
 
 **Steps:**
