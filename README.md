@@ -4,6 +4,8 @@ Time: 45-50 minuten
 
 When people enter the room: assign badges (depending on experience) and match people with high and low experience to work together
 
+Remember: "git reset --hard ..." is not available in the git-graph plugin (must be done via the cli)
+
 Intro slides (including init): 10 min (max)
 3 Tasks: 3x(9+2) = 33
 Last slide / questions: 3 min
