@@ -15,6 +15,7 @@ colrev init --help
 - Check out the folder scaffold being created on the left
 - You can specify a particular [review type](https://colrev.readthedocs.io/en/latest/manual/problem_formulation/init.html) by running `colrev init --type REVIEW_TYPE`
 - When starting the project, it is good practice to use the `data/data/paper.md` as a protocol
+- You can always add `--help` to the following commands to display more information.
 
 # 2. Search
 
@@ -65,7 +66,7 @@ colrev dedupe
 The metadata prescreen refers to the inclusion or exclusion of records based on titles and abstracts (if available).
 
 ```
-colrev prescreen --help
+colrev prescreen
 ```
 
 The main purpose of `colrev prescreen` is to reduce the number of records by excluding those that are clearly irrelevant to the review objectives. When in doubt, records can be retained (included provisionally) to decide in step 5, i.e., the screen based on full-text documents. For more information check the [documentation](https://colrev.readthedocs.io/en/latest/manual/metadata_prescreen.html).
@@ -75,7 +76,7 @@ Provide a short explanation of the prescreen and decide on inclusion/exclusion o
 The step of PDF retrieval refers to the activities to acquire PDF documents (or documents in other formats) as well as to ascertain or improve their quality.
 
 ```
-colrev pdfs --help
+colrev pdfs
 ```
 
 `colrev pdfs` ensures that PDF documents correspond to their associated metadata (no mismatches), that they are machine readable (OCR and semantically annotated), and that unnecessary materials (such as cover pages) are removed. For more information check the [documentation](https://colrev.readthedocs.io/en/latest/manual/pdf_retrieval.html).
@@ -97,7 +98,7 @@ You may also need to manually prepare some PDFs via `colrev pdf-prep-man`.
 The PDF screen refers to the final inclusion or exclusion of records based on PDF documents.
 
 ```
-colrev screen --help
+colrev screen
 ```
 
 In `colrev screen`, screening criteria, which can be inclusion or exclusion criteria, are a means to making these decisions more transparent (e.g., in a PRISMA flow chart). Records are only included when none of the criteria is violated. For more information check the [documentation](https://colrev.readthedocs.io/en/latest/manual/pdf_screen.html).
@@ -114,17 +115,12 @@ Screening criteria can be added by providing a short name, defining an inclusion
 The last step corresponds to the data extraction, analysis and synthesis activities. Depending on the type of review, this step can involve very different activities and outcomes.
 
 ```
-colrev data --help
+colrev data
 ```
 
 In the colrev data operation, records transition from `rev_included` to `rev_synthesized`. The data analysis and synthesis can involve different activities (data endpoints). For more information check the [documentation](https://colrev.readthedocs.io/en/latest/manual/data/data.html).
 
-1. Add a paper.md export as our first data endpoint:
-```
-colrev data --add colrev.paper_md
-```
-
-The paper-md endpoint can be used to create a review protocol or a manuscript based on pandoc and csl citation styles.
+1. The paper-md endpoint is added per default for most of the review types. It can be used to create a review protocol or a manuscript based on pandoc and csl citation styles.
 
 2. Add a PRISMA chart as our second data endpoint:
 ```
@@ -140,7 +136,7 @@ colrev data --add colrev.bibliography_export
 
 The bibliography-export endpoint exports the records in different bibliographical formats, which can be useful when the team works with a particular reference manager.
 
-# (5. Optional Bonus Operations)
+# 5. Bonus Operations (Optional)
 
 1. Update an existing search
 2. Conduct a backward search
