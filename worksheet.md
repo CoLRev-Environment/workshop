@@ -22,7 +22,7 @@ colrev init --help
 To add records the `colrev search` command can be used.
 
 ```
-colrev search --help
+colrev search
 ```
 
 `colrev search --add` adds a SearchSource to the project settings and record metadata are retrieved. SearchSources keep track of the associated queries, as well as the search results files. CoLRev includes serveral types of SearchSources such as, for example, traditional database searches, API-based searches, or backward and forward searches. For more information check the [documentation](https://colrev.readthedocs.io/en/latest/manual/metadata_retrieval/search.html).
@@ -81,17 +81,7 @@ colrev pdfs
 
 `colrev pdfs` ensures that PDF documents correspond to their associated metadata (no mismatches), that they are machine readable (OCR and semantically annotated), and that unnecessary materials (such as cover pages) are removed. For more information check the [documentation](https://colrev.readthedocs.io/en/latest/manual/pdf_retrieval.html).
 
-You may need to collect some PDFs manually. For `colrev pdf-get-man` follow the instructions:
-
-1. Type `colrev pdf-get-man`
-2. Respond with `n` to the question about whether to "Check existing unlinked PDFs (y/n)?"
-3. Respond with `n` to the question about whether to "Get PDF from Downloads folder (y/n)?"
-4. Press `Enter` to start
-5. Download the corresponding PDF for the displayed record
-6. Rename the PDF file to the ID
-7. Upload the PDF file to `data/pdfs` by right clicking on the folder and selecting "Upload..." in the context menu
-8. Respond with `y` to the question "Retrieved (y/n)?"
-9. Repeat 1.-8. for all missing PDFs
+You may need to collect some PDFs manually. For `colrev pdf-get-man` follow the instructions provided by `colrev` on the command line.
 
 You may also need to manually prepare some PDFs via `colrev pdf-prep-man`.
 
