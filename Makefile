@@ -10,7 +10,7 @@ PANDOC_CALL = docker run --rm \
 	--user $(shell id -u):$(shell id -g) \
 	pandoc/ubuntu-latex
 
-SLIDES_LIST := $(patsubst %.md,%,$(wildcard [0-9][0-9]*.md))
+SLIDES_LIST := 2024-ECIS-slides
 
 TEACHING_NOTES_LIST := $(patsubst teaching_notes/%.md,%,$(wildcard teaching_notes/[0-9][0-9]*.md))
 

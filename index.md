@@ -9,4 +9,4 @@ permalink: /
 # The CoLRev Workshop
 
 
-- [Slides](output/00_slides.html)
+- [ECIS 2024 Slides](output/2024-ECIS-slides.html)
