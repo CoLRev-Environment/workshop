@@ -1,24 +1,27 @@
 ---
 marp: true
-header: 'CoLRev workshop at ECIS 2024'
+header: 'Literature review tools workshop at ECIS 2024: CoLRev'
 footer: 'Gerit Wagner and Julian Prester'
 theme: ub-theme
 paginate: true
 ---
 
-![bg center width:500px](../assets/logo_small.png)
+# Three tools to help you navigate and review IS literature
+
+## LitBaskets, PermuSearch & CoLRev
+
+![bg center width:500px](../assets/2024-ECIS-logo.png)
 
 ---
 
 # Before we start
 
-- Start the [demo](https://github.com//codespaces/new?hide_repo_select=true&ref=main&repo=767717822) (account and login on GitHub required)
-- Slides and cheatsheet are available at XXXX
+- Create a [GitHub account](https://github.com/signup) and log in
+- Start the [demo](https://github.com//codespaces/new?hide_repo_select=true&ref=main&repo=767717822)
+- The slides are available online:
 
-**TODO**
+![width:100px](../assets/2024-ECIS-QR.png)
 
-- add QR code linking to the slides (directly to this page of the slides)
-- add the cheatsheet to vscode + rendered version on github/linked (with collapsible showing colrev status)- add cheatsheet to setup.md in codespaces?
 
 ![bg right:50% width:350px](../assets/start-demo.png)
 
@@ -52,20 +55,19 @@ colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contri
 
 # Literature reviews with CoLRev
 
-- An open and extensible platform supporting all steps
+- Based on Git for data versioning and collaboration
+- An open and extensible platform supporting different types of reviews 
+- Covers all steps of the process
 
 | Step                      | Operations                |
 |----------------------------|--------------------------|
 | Problem formulation        | ``colrev init``          |
 | Metadata retrieval         | ``colrev search``, ``colrev load``, ``colrev prep``, ``colrev dedupe``        |
 | Metadata prescreen         | ``colrev prescreen``     |
-| PDF retrieval              | ``colrev pdfs`    `      |
+| PDF retrieval              | ``colrev pdfs``          |
 | PDF screen                 | ``colrev screen``        |
 | Data extraction and synthesis | ``colrev data``       |
 
-
-- Based on Git for data versioning and collaboration
-- Packages for different types of reviews (not just "systematic reviews")
 
 <!-- 
 Git-based: the full collaboration model
@@ -80,30 +82,40 @@ something we discussed earlier, when announcing the workshop (record keeping, pu
 
 ---
 
-# Collaborative literature reviews
+# The potential synergies between reliability and efficiency in collaborative literature reviews
 
 Reliability
 
-- open data, open-source code (transparency - using Git to see exactly what was changed) - not the most common approach in the context of LR
-- validation of data and code (manual and algorithmic)
-- easy undo operations: paradigm change: no longer require "blind trust" in algorithms/student assistants
+- Transparency and openness of data, and open-source code
+- Validation of data and code
+- Undo operations should be easy
 
-enables / requires
+<!--
+data: manual and algorithmic
+ (transparency - using Git to see exactly what was changed) - not the most common approach in the context of LR
+: paradigm change: no longer require "blind trust" in algorithms/student assistants
+
+ enables / requires -->
 
 Efficiency
 
-- combining SOTA tools, testing new algorithms
-- involve colleagues, student assistants, crowds (variance in quality, availability, cost)
-- Reusable: it should be easy to update prior reviews, import samples from review papers published by another author team, or student papers etc. (reuse: one step further than reproducibility)
+- Tool testing and innovating
+- Team expansion, involving colleagues, student assistants, and crowds (varying performance, availability, and cost)
+- Data reuse, e.g., updating prior reviews, importing samples from other review papers, or their PDFs
+
+<!--
+ new algorithms and SOTA tools
+(reuse: one step further than reproducibility) 
+or student papers etc.
+-->
 
 ---
 
-# Tutorial
+# The CoLRev tutorial
 
-- small groups
-- codespaces: read doc + enter commands
-- show the command-line (the colrev init + colrev status)
-- GW: prepare worksheet (printed + in codepaces)
+- Form small groups (2-3 people)
+- Start codespaces, read the worksheet and enter the commands
+- Consult with the [documentation](https://colrev.readthedocs.io/en/latest/) when necessary
 
 ---
 
