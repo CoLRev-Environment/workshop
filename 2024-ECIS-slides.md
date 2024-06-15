@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'European Conference on Information Systems 2024 Workshop: CoLRev'
+header: 'ECIS 2024: CoLRev'
 footer: 'Gerit Wagner and Julian Prester'
 theme: ub-theme
 paginate: true
