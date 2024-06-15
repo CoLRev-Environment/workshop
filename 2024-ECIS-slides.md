@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Literature review tools workshop at ECIS 2024: CoLRev'
+header: 'European Conference on Information Systems 2024 Workshop: CoLRev'
 footer: 'Gerit Wagner and Julian Prester'
 theme: ub-theme
 paginate: true
@@ -20,14 +20,15 @@ paginate: true
 - Start the [demo](https://github.com//codespaces/new?hide_repo_select=true&ref=main&repo=767717822)
 - The slides are available online:
 
-![width:100px](../assets/2024-ECIS-QR.png)
+<br/>
 
+![width:250px center](../assets/2024-ECIS-QR.png)
 
-![bg right:50% width:350px](../assets/start-demo.png)
+![bg right:50% width:410px](../assets/start-demo.png)
 
 ---
 
-# Who are we?
+# Our background
 
 ![bg center width:900px](../assets/expertise.png)
 
@@ -59,6 +60,8 @@ colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contri
 - An open and extensible platform supporting different types of reviews 
 - Covers all steps of the process
 
+<center>
+
 | Step                      | Operations                |
 |----------------------------|--------------------------|
 | Problem formulation        | ``colrev init``          |
@@ -68,6 +71,7 @@ colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contri
 | PDF screen                 | ``colrev screen``        |
 | Data extraction and synthesis | ``colrev data``       |
 
+</center>
 
 <!-- 
 Git-based: the full collaboration model
@@ -113,75 +117,14 @@ or student papers etc.
 
 # The CoLRev tutorial
 
-- Form small groups (2-3 people)
-- Start codespaces, read the worksheet and enter the commands
+- Form small groups (2-3 people) and work together
+- Go to the [codespaces](https://github.com//codespaces/new?hide_repo_select=true&ref=main&repo=767717822), read the worksheet and enter the commands
 - Consult with the [documentation](https://colrev.readthedocs.io/en/latest/) when necessary
 
----
-
-# Problem formulation
-
-colrev init (with review types, and protocol for notes)
-
-link to docs?
-
-mention paper.md for protocol?
-
-<!-- Note: do not show "a solution" for this part -->
+![bg right:60% width:600px](../assets/screenshot_annotation.png)
 
 ---
 
-# Search
+# How to get involved
 
-Focus: search
-
-- search: interactively add search (DB + API)
-- IEEE (web of science) - publicly accessible download results files
-- AIS via api (TEST)
-
-Topic: "microsourcing" 
-
-Note: You may use a topic of your choice, preferrably one that does not return too many results.
-
-If you completed the search, you can continue with `prep` and `dedupe`
-
-<!-- Includes prep and dedupe
-
-dedupe: highlight: single open-source (code  peer reviewed) tool -->
-
----
-
-# Screen
-
-prescreen
-
-PDF retrieval
-
-Screen (full-texts)
-
-<!-- mention PDF retrieval locally/based on index - 80% -->
-
----
-
-# Data extraction, analysis, synthesis
-
-- Synthesis with paper.md
-- Export as PDF, word (with PRISMA)
-
----
-
-# Optional items (depending on time left)
-
-- Show search updates (provdie an updated IEEE results file with additional records)?
-- backward-search - one or several papers? TEST
-- exports to different bib formats / just the sample (TEST!)
-
-<!-- generate profiles?! / structured data -->
-
----
-
-# Thank you
-
-- How to get in touch, ask for help (literature-review consultation hour/calendly?)
-- How to get involved (report bugs, contribute, ...)
-- similar to last slide of esmarconf
+![width:1000px center](../assets/last_slide.png)
