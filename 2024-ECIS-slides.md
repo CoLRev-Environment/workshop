@@ -119,9 +119,10 @@ or student papers etc.
 
 - Form small groups (2-3 people) and work together
 - Go to the [codespaces](https://github.com//codespaces/new?hide_repo_select=true&ref=main&repo=767717822), read the worksheet and enter the commands
+- You can enter `colrev status` at all times
 - Consult with the [documentation](https://colrev.readthedocs.io/en/latest/) when necessary
 
-![bg right:60% width:600px](../assets/screenshot_annotation.png)
+![bg right:55% width:580px](../assets/screenshot_annotation.png)
 
 ---
 
