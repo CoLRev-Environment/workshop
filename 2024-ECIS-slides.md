@@ -57,7 +57,7 @@ colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contri
 # Literature reviews with CoLRev
 
 - Based on Git for data versioning and collaboration
-- An open and extensible platform supporting different types of reviews 
+- An open and extensible environment supporting different types of reviews 
 - Covers all steps of the process
 
 <center>
