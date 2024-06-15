@@ -12,5 +12,5 @@ permalink: /
 ## 2024 - ECIS Literature Review Tools Workshop
 
 - [Slides](output/2024-ECIS-slides.html)
-- [Worksheet](worksheet.md)
-- [ECIS workshop on literature reviews](https://github.com/blairw/ecis2024-litreviewtools-workshop)
+- [Worksheet](https://github.com/CoLRev-Environment/colrev-template/blob/main/.devcontainer/setup.md)
+- [ECIS workshop on literature reviews](https://blairw.github.io/ecis2024-litreviewtools-workshop/)
