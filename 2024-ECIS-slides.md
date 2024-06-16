@@ -136,3 +136,25 @@ something we discussed earlier, when announcing the workshop (record keeping, pu
 # How to get involved
 
 ![width:1000px center](../assets/last_slide.png)
+
+---
+
+# Open questions
+
+Use AI in the search to reduce time
+
+- ChatGPT can be useful for **exploratory searches** (see [Wang et al.](https://arxiv.org/abs/2302.03495))
+- See [Wagner, Lukyanenko and Paré 2022](https://journals.sagepub.com/doi/full/10.1177/02683962211048201) and the follow-up paper (currently under review)
+- A [CoLRev package for genAI](https://github.com/CoLRev-Environment/colrev/tree/genailr) is currently under development
+- If the challenge is more significant in the prescreen - consider the active-ML tool [ASReview](https://github.com/asreview/asreview)
+
+Can not find the right information
+
+- Use *litbaskets* for journal scope and *Permusearch* for search terms
+- Iterate and extend search based on keywords and terms from the papers
+- Consider guidelines of [Boell and Cecez-Kecmanovic 2014](https://aisel.aisnet.org/cais/vol34/iss1/12/) (Appendix A)
+- Once you have a working strategy: report and publish it (e.g., at [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv))
+
+Finding high-quality literature outside of IS
+
+- Consider a [backward search](https://colrev.readthedocs.io/en/latest/manual/packages/colrev.pdf_backward_search.html) with a number-of-citations threshold
