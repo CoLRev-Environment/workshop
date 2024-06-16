@@ -54,6 +54,42 @@ colrev projet: setup in 2021 - 3 years under development, 26 versions, 20 contri
 
 ---
 
+# Philosophy: Reliability, efficiency, and contribution
+
+Reliability
+
+- Transparency and openness of data, and open-source code
+- Validation of data and code
+- Efficient undo operations
+
+<!--
+data: manual and algorithmic
+ (transparency - using Git to see exactly what was changed) - not the most common approach in the context of LR
+: paradigm change: no longer require "blind trust" in algorithms/student assistants
+
+ enables / requires -->
+
+Efficiency
+
+- Tool testing and innovating
+- Team expansion, involving colleagues, student assistants, and crowds
+- Data reuse, e.g., updating prior reviews, importing samples from other review papers
+
+Contribution
+
+- Tools must build on a nuanced understanding of review goals and types
+- Knowledge contributions primarily depend on the ingenuity of researchers (with some help of tools)
+
+<!--
+varying performance, availability, and cost
+
+ new algorithms and SOTA tools
+(reuse: one step further than reproducibility) 
+or student papers etc.
+-->
+
+---
+
 # Literature reviews with CoLRev
 
 - Based on Git for data versioning and collaboration
@@ -82,35 +118,6 @@ colrev: literature reviews in collaborative settings
 something we discussed earlier, when announcing the workshop (record keeping, put users in a position to report a full standalone paper at all times)
 
 -> Extensible approach, adapting the first steps with parameters, and selecting different packages for the data analysis/extraction/coding/synthesis/RoB
--->
-
----
-
-# The potential synergies between reliability and efficiency in collaborative literature reviews
-
-Reliability
-
-- Transparency and openness of data, and open-source code
-- Validation of data and code
-- Undo operations should be easy
-
-<!--
-data: manual and algorithmic
- (transparency - using Git to see exactly what was changed) - not the most common approach in the context of LR
-: paradigm change: no longer require "blind trust" in algorithms/student assistants
-
- enables / requires -->
-
-Efficiency
-
-- Tool testing and innovating
-- Team expansion, involving colleagues, student assistants, and crowds (varying performance, availability, and cost)
-- Data reuse, e.g., updating prior reviews, importing samples from other review papers, or their PDFs
-
-<!--
- new algorithms and SOTA tools
-(reuse: one step further than reproducibility) 
-or student papers etc.
 -->
 
 ---
