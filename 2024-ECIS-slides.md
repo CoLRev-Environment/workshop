@@ -127,7 +127,7 @@ something we discussed earlier, when announcing the workshop (record keeping, pu
 - Form small groups (2-3 people) and work together
 - Go to the [codespaces](https://github.com//codespaces/new?hide_repo_select=true&ref=main&repo=767717822), read the worksheet and enter the commands
 - You can enter `colrev status` at all times
-- Consult with the [documentation](https://colrev.readthedocs.io/en/latest/) when necessary
+- Consult with the [documentation](https://colrev-environment.github.io/colrev/) when necessary
 
 ![bg right:55% width:580px](../assets/screenshot_annotation.png)
 
@@ -157,4 +157,4 @@ Can not find the right information
 
 Finding high-quality literature outside of IS
 
-- Consider a [backward search](https://colrev.readthedocs.io/en/latest/manual/packages/colrev.pdf_backward_search.html) with a number-of-citations threshold
+- Consider a [backward search](https://colrev-environment.github.io/colrev/manual/packages/colrev.pdf_backward_search.html) with a number-of-citations threshold
