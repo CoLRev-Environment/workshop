@@ -1,7 +1,5 @@
 # CoLRev workshop
 
-TODOs
-
 ## Materials
 
 ```
